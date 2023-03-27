@@ -112,19 +112,10 @@ SLIDES.push({
 		// Circular Wordbox
 		self.add({
 			id:"intro_text", type:"TextBox",
-			x:130, y:10, width:700, height:500, align:"center",
+			x:130, y:50, width:700, height:500, align:"center",
 			text_id:"intro"
 		});
-
-		// Button
-		self.add({
-			id:"intro_button", type:"Button", x:304, y:466, size:"long",
-			text_id:"intro_button", 
-			message:"slideshow/scratch"
-		});
-
 		_hide(o.intro_text); _fadeIn(o.intro_text, 200);
-		_hide(o.intro_button); _fadeIn(o.intro_button, 700);
 
 	},
 	onend: function(self){
