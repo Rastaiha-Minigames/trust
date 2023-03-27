@@ -31,7 +31,7 @@ window.onload = function(){
 			}
 		);
 
-		Scratcher.scratch('intro')
+		Scratcher.scratch('oneoff')
 
 	});
 
