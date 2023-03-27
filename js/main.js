@@ -17,12 +17,6 @@ window.onload = function(){
 			slides: SLIDES
 		});
 
-		// Slide Select
-		// slideSelect = new SlideSelect({
-		// 	dom: $("#select"),
-		// 	slides: SLIDES
-		// });
-		// slideSelect.dom.style.display = "none";
 		subscribe("start/game", function(){
 			// slideSelect.dom.style.display = "block";
 			// $("#translations").style.display = "none";
@@ -30,7 +24,6 @@ window.onload = function(){
 			// [FOR DEBUGGING]
 			publish("slideshow/next");
 			//publish("slideshow/scratch", ["credits"]);
-
 		});
 
 		// SOUND
