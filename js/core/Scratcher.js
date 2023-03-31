@@ -60,10 +60,10 @@ Scratcher.scratchAnim = function(dom, scratchIn){
 		}
 	},40);
 
-	setTimeout(function(){
-		var sound = scratchIn ? Loader.sounds.scratch_in : Loader.sounds.scratch_out;
-		sound.play();
-	},100);
+	// setTimeout(function(){
+	// 	var sound = scratchIn ? Loader.sounds.scratch_in : Loader.sounds.scratch_out;
+	// 	sound.play();
+	// },1000);
 
 	return deferred.promise;
 
