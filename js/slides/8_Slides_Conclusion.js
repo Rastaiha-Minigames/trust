@@ -121,13 +121,13 @@ SLIDES.push({
 		});
 		_hide(o.text2); _fadeIn(o.text2, 200);
 
-		// Button
-		self.add({
-			id:"button", type:"Button", x:427, y:466, 
-			text_id:"outro_2_btn", size:"short",
-			message:"slideshow/scratch"
-		});
-		_hide(o.button); _fadeIn(o.button, 2000);
+		// // Button
+		// self.add({
+		// 	id:"button", type:"Button", x:427, y:466, 
+		// 	text_id:"outro_2_btn", size:"short",
+		// 	message:"slideshow/scratch"
+		// });
+		// _hide(o.button); _fadeIn(o.button, 2000);
 
 	},
 	onend: function(self){
