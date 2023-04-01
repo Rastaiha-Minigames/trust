@@ -18,7 +18,7 @@ window.onload = function(){
 		});
 
 		// SOUND
-		Howler.mute(true);
+		// Howler.mute(true);
 
 		// LOAD REAL THINGS
 		Loader.loadAssets(
