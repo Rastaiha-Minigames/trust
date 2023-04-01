@@ -1,0 +1,113 @@
+<!--
+
+TRANSLATION GUIDE:
+https://github.com/ncase/trust#how-to-translate-this-thang
+
+Hello fan-translaters!
+First off, thank you so much for taking the time to help out,
+I super appreciate it. :3 Anyway, to make translation a bit easier
+(or at least less painful) I've scattered comments about on
+what things you should translate, plus any additional info
+
+Translate the following files:
+
+    index.html - The title & social sharing text (a few words)
+    words.html - All the words for the interactive itself (~3,300 words)
+    (optional) notes/index.html - The footnotes (~1,100 words)
+    (optional) peeps/index.html - The full credits (a few words)
+
+Many thanks again!
+
+<3,
+~ Nicky Case
+
+-->
+<html lang="fa" dir="rtl">
+<head>
+
+	<!-- TO TRANSLATE: "title", "description" -->
+	<title>تکامل اعتماد</title>
+	<meta name="description" content="یک راهنمای تعاملی برای نظریه بازی درباره اینکه چرا به یکدیگر اعتماد می‌کنیم"/>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+	<meta content="utf-8" http-equiv="encoding">
+	<meta charset="utf-8">
+	<link rel="icon" type="image/png" href="favicon.png">
+
+	<!-- TO TRANSLATE: "name", "description" -->
+	<meta itemprop="name" content="تکامل اعتماد">
+	<meta itemprop="description" content="یک راهنمای تعاملی برای نظریه بازی درباره اینکه چرا به یکدیگر اعتماد می‌کنیم">
+	<meta itemprop="image" content="http://ncase.me/trust/social/thumbnail.png">
+
+	<!-- TO TRANSLATE: "name", "description" -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@ncasenmare">
+	<meta name="twitter:title" content="تکامل اعتماد">
+	<meta name="twitter:description" content="یک راهنمای تعاملی برای نظریه بازی درباره اینکه چرا به یکدیگر اعتماد می‌کنیم">
+	<meta name="twitter:creator" content="@ncasenmare">
+	<meta name="twitter:image" content="http://ncase.me/trust/social/thumbnail.png">
+
+	<!-- TO TRANSLATE: "name", "description" -->
+	<meta property="og:title" content="تکامل اعتماد">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="http://hamed.github.io/trust/">
+	<meta property="og:image" content="http://ncase.me/trust/social/thumbnail.png">
+	<meta property="og:description" content="یک راهنمای تعاملی برای نظریه بازی درباره اینکه چرا به یکدیگر اعتماد می‌کنیم">
+
+	<!-- Styles -->
+	<link rel="stylesheet" href="css/slides.css">
+	<link rel="stylesheet" href="css/balloon.css">
+
+</head>
+<body>
+	<div id="preloader">یک خورده صبر کن ...</div> <!-- TRANSLATE THIS -->
+	<div style="display:none" id="main">
+		<div id="slideshow_container">
+			<div id="slideshow"></div>
+			<div id="scratcher"></div>
+		</div>
+	</div>
+</body>
+</html>
+
+<!-- Libraries -->
+<script src="js/lib/helpers.js"></script>
+<script src="js/lib/pegasus.js"></script>
+<script>var c_ = {};</script>
+<script src="js/lib/minpubsub.src.js"></script>
+<script src="js/lib/q.js"></script>
+<script src="js/lib/pixi.min.js"></script>
+<script src="js/lib/howler.js"></script>
+<script>var createjs = window;</script>
+<script src="js/lib/tweenjs-0.6.2.min.js"></script>
+<script>Ticker.framerate=60; Ticker.paused=true;</script>
+
+<!-- Core Engine -->
+<script src="js/core/Loader.js"></script>
+<script src="js/core/Slideshow.js"></script>
+<script src="js/core/SlideSelect.js"></script>
+<script src="js/core/Button.js"></script>
+<script src="js/core/TextBox.js"></script>
+<script src="js/core/Words.js"></script>
+<script src="js/core/IncDecNumber.js"></script>
+<script src="js/core/Slider.js"></script>
+<script src="js/core/Scratcher.js"></script>
+<script src="js/core/Background.js"></script>
+<script src="js/core/ImageBox.js"></script>
+<script src="js/core/PayoffsUI.js"></script>
+
+<!-- Simulations -->
+<script src="js/sims/Splash.js"></script>
+<script src="js/sims/PD.js"></script>
+<script src="js/sims/Iterated.js"></script>
+<script src="js/sims/Tournament.js"></script>
+<script src="js/sims/SandboxUI.js"></script>
+
+<!-- Slides -->
+<script src="js/slides/3_Slides_Tournament.js"></script>
+
+<!-- Assets -->
+<script src="js/images.js"></script>
+
+<!-- Main Code -->
+<script src="js/tournament.js"></script>
+
