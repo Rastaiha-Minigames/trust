@@ -17,9 +17,6 @@ window.onload = function(){
 			slides: SLIDES
 		});
 
-		// SOUND
-		// Howler.mute(true);
-
 		// LOAD REAL THINGS
 		Loader.loadAssets(
 			Loader.manifest,

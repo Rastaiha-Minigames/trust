@@ -26,9 +26,6 @@ window.onload = function(){
 			//publish("slideshow/scratch", ["credits"]);
 		});
 
-		// SOUND
-		Howler.mute(true);
-
 		// LOAD REAL THINGS
 		Loader.loadAssets(
 			Loader.manifest,
