@@ -1,4 +1,4 @@
-Loader.addToManifest(Loader.manifest,{
+Loader.addToManifest(Loader.manifestPreload,{
 
 	// SFX
 	button1: "assets/sounds/button1.mp3",

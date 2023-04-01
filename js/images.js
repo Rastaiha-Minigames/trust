@@ -1,4 +1,4 @@
-Loader.addToManifest(Loader.manifest,{
+Loader.addToManifest(Loader.manifestPreload,{
 
 	// CSS ASSETS
 	cssAsset0: "assets/ui/button.png",

@@ -1,4 +1,4 @@
-Loader.addToManifest(Loader.manifest,{
+Loader.addToManifest(Loader.manifestPreload,{
 	scratch_in: "assets/sounds/scratch_in.mp3",
 	scratch_out: "assets/sounds/scratch_out.mp3"
 });
