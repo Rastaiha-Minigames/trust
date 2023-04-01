@@ -58,15 +58,9 @@ Scratcher.scratchAnim = function(dom, scratchIn){
 		}else{
 			dom.style.backgroundPosition = (scratchIn?0:-100)+"% "+(frame*-100)+"%";
 		}
-	},100);
-
-	// setTimeout(function(){
-	// 	var sound = scratchIn ? Loader.sounds.scratch_in : Loader.sounds.scratch_out;
-	// 	sound.play();
-	// },100);
+	},40);
 
 	return deferred.promise;
-
 };
 
 Scratcher.smallScratch = function(x,y,width,height,_onChange,_onComplete){
