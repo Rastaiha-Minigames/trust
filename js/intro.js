@@ -26,10 +26,9 @@ window.onload = function(){
 			function(ratio){
 				publish("preloader/progress", [ratio]);
 			}
-		);
-
-		Scratcher.scratch('intro')
-
+		).then(()=>{
+			Scratcher.scratch('intro')
+		});
 	});
 
 };
